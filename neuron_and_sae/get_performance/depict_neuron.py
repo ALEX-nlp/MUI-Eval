@@ -11,7 +11,6 @@ from utils_neuron import *
 import argparse
 import jsonlines
 import random
-from human_eval_evaluation_depcit import evaluate_functional_correctness
 
 NEURON_FILE = ["score"]
 mode_value = {
