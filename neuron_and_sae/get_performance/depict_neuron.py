@@ -232,7 +232,8 @@ def depict_neuron_proportions(series_model_name, tasks=["arc", "gsm8k", "mmlu", 
                 for mode, vals in mode_value.items():
                     for val in vals:
                         # Adjust val if it represents a percentage for topk%
-                        if val < 1 : val = int(val * NEURON_NUM_DICTIOJN[model_name]) 
+                        if mode == "topk":
+                            if val < 1 : val = int(val * NEURON_NUM_DICTIOJN[model_name]) 
                         if mode == "topscore":
                             setting_file = f"{nf}_{mode}_threshold_{val}"
                         else:
