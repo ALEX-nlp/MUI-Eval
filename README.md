@@ -39,6 +39,7 @@ The Model Utilization Index (MUI) quantifies the extent to which a model leverag
 ├── figures
 ├── model				# Directory to store model and SAE checkpoints
 ├── neuron_and_sae				# Directory for model inference and Interpretation 
+│   ├── result				# Directory to store the response results
 │   ├── get_performance
 │   │   ├── depict_neuron.py				# Script for calculation MUI using neurons
 │   │   ├── get_Neuron_result				# Directory to store neuron result
@@ -63,8 +64,7 @@ The Model Utilization Index (MUI) quantifies the extent to which a model leverag
 │       ├── get_sae_llama3.py
 │       ├── lm_saes.py
 │       └── utils_neuron.py
-├── requirements.txt
-└── result				# Directory to store the response results
+└── requirements.txt				
 ```
 
 
