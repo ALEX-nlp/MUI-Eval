@@ -2,7 +2,7 @@
 
 ---
 
-[![arXiv](https://img.shields.io/badge/arXiv-tbd-d63333.svg?logo=arxiv)]()
+[![arXiv](https://img.shields.io/badge/arXiv-2504.07440-d63333.svg?logo=arxiv)](https://arxiv.org/abs/2504.07440)
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/ALEX-nlp/MUI-Eval)
 
 This repository contains the implementation code and associated data for our newly proposed metric, the Model Utilization Index (MUI). This metric is currently derived using Neuron-Based Interpretation and Sparse Activation Encoder (SAE)-based Interpretation methodologies.
@@ -11,7 +11,7 @@ This repository contains the implementation code and associated data for our new
 
 ## 🎉 News 
 
-- [x] [2025-04-10] 🎉 Exciting Release! We’ve just published our paper titled "Revisiting LLM Evaluation through Mechanism Interpretability: A New Metric and Model Utility Law". Check out our repository for the corresponding analysis code!
+- [x] [2025-04-11] 🎉 Exciting Release! We’ve just published our paper titled "Revisiting LLM Evaluation through Mechanism Interpretability: A New Metric and Model Utility Law". Check out our repository for the corresponding analysis code!
 
 
 
@@ -221,7 +221,7 @@ Similar adjustments can be made for SAE results by configuring the threshold sel
 
 ## Contact
 
-For any questions or feedback, feel free to contact  [Jiahao Ying](mailto:jhying.2022@phdcs.smu.edu.sg) and  [Yixin Cao](mailto:caoyixin2011@gmail.com).
+For any questions or feedback, feel free to contact  [Yixin Cao](mailto:caoyixin2011@gmail.com) and   [Jiahao Ying](mailto:jhying.2022@phdcs.smu.edu.sg).
 
 
 
@@ -230,6 +230,14 @@ For any questions or feedback, feel free to contact  [Jiahao Ying](mailto:jhying
 If you find this work helpful, please consider citing:
 
 ```bibtex
-
+@misc{cao2025revisitingllmevaluationmechanism,
+      title={Revisiting LLM Evaluation through Mechanism Interpretability: a New Metric and Model Utility Law}, 
+      author={Yixin Cao and Jiahao Ying and Yaoning Wang and Xipeng Qiu and Xuanjing Huang and Yugang Jiang},
+      year={2025},
+      eprint={2504.07440},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.07440}, 
+}
 ```
 
