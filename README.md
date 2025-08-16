@@ -3,17 +3,19 @@
 ---
 
 [![arXiv](https://img.shields.io/badge/arXiv-2504.07440-d63333.svg?logo=arxiv)](https://arxiv.org/abs/2504.07440)
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/ALEX-nlp/MUI-Eval)
+[![GitHub-MUI](https://img.shields.io/badge/GitHub-MUI-181717?logo=github)](https://github.com/ALEX-nlp/MUI-Eval)
+[![ GitHub-EffiEval](https://img.shields.io/badge/GitHub-EffiEval-181717?logo=github)](https://github.com/Castria-cn/EffiEval)
 
 This repository contains the implementation code and associated data for our newly proposed metric, the Model Utilization Index (MUI). This metric is currently derived using Neuron-Based Interpretation and Sparse Activation Encoder (SAE)-based Interpretation methodologies.
+
+We highlight this important yet under-exploration problem, namely the [**Generalization Issue of LLMs' Evaluation**](https://arxiv.org/pdf/2504.18838?): how to estimate a model’s fundamental capabilities that may not covered by limited testing samples, since the model's capabilities can be improved almost unboundedly through training and inference scaling, while we can not increase the size of evaluation dataset infinitely considering practical efficiency. MUI offers a preliminary attempt.
 
 
 
 ## 🎉 News 
 
+- [x] [2025-8-15] Through MUI, we achieved **Efficient and Generalizable Evaluation**. For details, see our work: [EffiEval: Efficient and Generalizable Model Evaluation via Capability Coverage Maximization](https://castria-cn.github.io/EffiEval-homepage/). [![GitHub - EffiEval](https://img.shields.io/badge/GitHub-EffiEval-181717?logo=github)](https://github.com/Castria-cn/EffiEval)
 - [x] [2025-04-11] 🎉 Exciting Release! We’ve just published our paper titled "Revisiting LLM Evaluation through Mechanism Interpretability: A New Metric and Model Utility Law". Check out our repository for the corresponding analysis code!
-
-
 
 ## Brief Introduction
 
@@ -22,7 +24,9 @@ The Model Utilization Index (MUI) quantifies the extent to which a model leverag
 <p align="center" width="100%">
 <a target="_blank"><img src="figures/utilitylaw.png" alt="MUI" style="width: 90%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
+Building upon MUI, **EffiEva**l efficiently selects representative subsets of evaluation data, ensuring representativeness**, **fairness, and generalizability while maintaining strong ranking consistency with full-dataset evaluation. It is scalable and flexible, allowing users to balance evaluation efficiency and reliability. (More detail for EffiEval please ref [![GitHub - EffiEval](https://img.shields.io/badge/GitHub-EffiEval-181717?logo=github)](https://github.com/Castria-cn/EffiEval))
 
+![](figures/EffiEval.gif)
 
 ## Prerequisites 🛠️
 
