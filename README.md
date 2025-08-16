@@ -14,7 +14,7 @@ We highlight this important yet under-exploration problem, namely the [**General
 
 ## 🎉 News 
 
-- [x] [2025-8-15] Through MUI, we achieved **Efficient and Generalizable Evaluation**. For details, see our work: [EffiEval: Efficient and Generalizable Model Evaluation via Capability Coverage Maximization](https://castria-cn.github.io/EffiEval-homepage/). [![GitHub - EffiEval](https://img.shields.io/badge/GitHub-EffiEval-181717?logo=github)](https://github.com/Castria-cn/EffiEval)
+- [x] [2025-8-15] Through MUI, we achieved **Efficient and Generalizable Evaluation**. For details, see our work: [EffiEval: Efficient and Generalizable Model Evaluation via Capability Coverage Maximization](https://castria-cn.github.io/EffiEval-homepage/).
 - [x] [2025-04-11] 🎉 Exciting Release! We’ve just published our paper titled "Revisiting LLM Evaluation through Mechanism Interpretability: A New Metric and Model Utility Law". Check out our repository for the corresponding analysis code!
 
 ## Brief Introduction
@@ -24,7 +24,7 @@ The Model Utilization Index (MUI) quantifies the extent to which a model leverag
 <p align="center" width="100%">
 <a target="_blank"><img src="figures/utilitylaw.png" alt="MUI" style="width: 90%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
-Building upon MUI, **EffiEva**l efficiently selects representative subsets of evaluation data, ensuring representativeness**, **fairness, and generalizability while maintaining strong ranking consistency with full-dataset evaluation. It is scalable and flexible, allowing users to balance evaluation efficiency and reliability. (More detail for EffiEval please ref [![GitHub - EffiEval](https://img.shields.io/badge/GitHub-EffiEval-181717?logo=github)](https://github.com/Castria-cn/EffiEval))
+Building upon MUI, **EffiEva**l efficiently selects representative subsets of evaluation data, ensuring representativeness**, **fairness, and generalizability while maintaining strong ranking consistency with full-dataset evaluation. It is scalable and flexible, allowing users to balance evaluation efficiency and reliability. (More detail for EffiEval please ref [EffiEval: Efficient and Generalizable Model Evaluation via Capability Coverage Maximization](https://castria-cn.github.io/EffiEval-homepage/)).
 
 ![](figures/EffiEval.gif)
 
