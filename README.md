@@ -26,7 +26,7 @@ The Model Utilization Index (MUI) quantifies the extent to which a model leverag
 </p>
 
 
-Building upon MUI, **EffiEva**l efficiently selects representative subsets of evaluation data, ensuring representativeness**, **fairness, and generalizability while maintaining strong ranking consistency with full-dataset evaluation. It is scalable and flexible, allowing users to balance evaluation efficiency and reliability. More detail for EffiEval please ref [EffiEval: Efficient and Generalizable Model Evaluation via Capability Coverage Maximization](https://castria-cn.github.io/EffiEval-homepage/)  
+Building upon MUI, **EffiEva**l efficiently selects representative subsets of evaluation data, ensuring representativeness**, **fairness, and generalizability while maintaining strong ranking consistency with full-dataset evaluation. It is scalable and flexible, allowing users to balance evaluation efficiency and reliability. More detail for EffiEval please ref [![ GitHub-EffiEval](https://img.shields.io/badge/GitHub-EffiEval-181717?logo=github)](https://github.com/Castria-cn/EffiEval).
 
 
 
